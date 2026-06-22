@@ -1,0 +1,26 @@
+# ---- Notebook artifacts ----
+.ipynb_checkpoints/
+
+# ---- Generated report intermediates ----
+report/*.md
+report/*.docx
+report/report_template.docx
+!report/**/*.pdf
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ---- Secrets (never commit Reddit API creds) ----
+.env
+*.secret
+praw.ini
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
